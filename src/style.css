@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+body {
+  background-color: #000;
+} */
+
+@layer base {
+  @font-face {
+    font-family: 'amiri';
+    src: url('/fonts/Amiri-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'baloo';
+    src: url('/fonts/BalooBhaijaan-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'elmessiri';
+    src: url('/fonts/elmessiri-regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'jomhuria';
+    src: url('/fonts/Jomhuria-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'lalezar';
+    src: url('/fonts/Lalezar-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'lateef';
+    src: url('/fonts/LateefRegOT.ttf') format('truetype');
+  }
+
+  @keyframes ticker1 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes ticker2 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes clock {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
