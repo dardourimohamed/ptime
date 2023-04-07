@@ -11,6 +11,7 @@ export const Hand: Component<HandProps> = (props) => {
       stroke="currentColor"
       stroke-width={local.width}
       stroke-linecap="round"
+      filter="url(#f3)"
       {...(
         local.duration ? {
           style: {
